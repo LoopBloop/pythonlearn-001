@@ -32,8 +32,8 @@ You can download the sample data at http://www.pythonlearn.com/code/words.txt
 #AND MIND-NUMBING
 
 # Use words.txt as the file name
-fname = raw_input("Enter file name: ")
+fname =input("Enter file name: ")
 fh = open(fname)
 for i in fh:
     i = i.rstrip().upper()
-    print i
+    print (i)
